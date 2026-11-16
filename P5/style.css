@@ -1,0 +1,7 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; line-height: 1.6; color: #263238; background: #f2f5f6; }
+.top { padding: 35px 20px; text-align: center; color: white; background: #31566b; }
+main { width: min(850px, 90%); margin: 30px auto; }
+section { margin-bottom: 20px; padding: 22px; background: white; border-radius: 8px; }
+h2 { margin-top: 0; color: #31566b; }
+footer { padding: 15px; text-align: center; color: white; background: #263f4d; }

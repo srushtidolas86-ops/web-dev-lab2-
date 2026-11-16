@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: Arial, sans-serif; line-height: 1.6; color: #24313a; background: #f5f7f8; }
+.header { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 18px 7%; background: white; border-bottom: 1px solid #e1e6e9; }
+.logo { color: #24536a; font-size: 1.3rem; font-weight: bold; text-decoration: none; }
+nav { display: flex; flex-wrap: wrap; gap: 18px; }
+nav a { color: #24313a; text-decoration: none; }
+nav a:hover { color: #287b91; }
+main { width: min(900px, 88%); margin: 35px auto; }
+section { margin-bottom: 22px; padding: 28px; background: white; border-radius: 10px; }
+.hero { padding: 45px 28px; color: white; background: #31566b; }
+.hero h1 { margin: 5px 0; font-size: 2.4rem; }
+h2 { margin-top: 0; color: #24536a; }
+.skills { display: flex; flex-wrap: wrap; gap: 12px; padding: 0; list-style: none; }
+.skills li { padding: 8px 15px; background: #e5f0f3; border-radius: 20px; }
+footer { padding: 18px; text-align: center; color: white; background: #243b4a; }
+@media (max-width: 600px) { .header { align-items: flex-start; flex-direction: column; } nav { gap: 12px; } .hero h1 { font-size: 2rem; } }

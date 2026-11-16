@@ -1,0 +1,12 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #25343b; background: #f3f6f7; line-height: 1.6; }
+.navbar { position: sticky; top: 0; z-index: 5; display: flex; gap: 25px; padding: 16px 8%; background: #294c60; }
+.navbar a { color: white; text-decoration: none; }
+main { width: min(850px, 90%); margin: 30px auto; }
+section { margin-bottom: 30px; padding: 25px; background: white; border-radius: 9px; }
+.card { position: relative; min-height: 260px; overflow: hidden; border-radius: 9px; background: linear-gradient(130deg, #9dbbc5, #31566b); }
+.card-image { min-height: 260px; }
+.card-caption { position: absolute; right: 0; bottom: 0; left: 0; padding: 22px; color: white; background: linear-gradient(transparent, rgba(0,0,0,.78)); }
+.card-caption h3 { margin-bottom: 4px; }
+.card-caption p { margin: 0; }
+.extra { min-height: 350px; }
